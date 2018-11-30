@@ -381,7 +381,7 @@
 								<li><span>Tambah</span></li>
 							</ol>
 					
-							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+							<a class="sidebar-right-toggle"><i class="fa fa-chevron-left"></i></a>
 						</div>
 					</header>
 
@@ -458,13 +458,7 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label">Deskripsi</label>
 												<div class="col-md-9">
-													<div class="summernote" data-plugin-summernote data-plugin-options='{ "height": 180, "codemirror": { "theme": "ambiance" } }'><textarea rows="10" cols="50">Surat Resmi disebut juga dengan surat dinas, yaitu media komunikasi dalam bentuk tulisan yang digunakan dalam situasi formal/ resmi dan dibuat sesuai dengan aturan-aturan tertentu yang sudah ada. Digunakan oleh perusahaan, perorangan, organisasi, maupun instansi baik itu perusahaan milik pemerintah maupun swasta. Penggunaannya tidak digunakan semata-mata untuk kepentingan pribadi (individu), tetapi untuk kepentingan dari sebuah organisasi maupun instansi.
-
-Lalu kenapa perorangan bisa menggunakannya? Itu disebabkan karena dibuat tidak secara asal-asalan serta mengikuti aturan-aturan tertentu. Contohnya adalah undangan pernikahan.
-
-Surat resmi dibuat dengan kaidah dan aturan yang telah ditentukan, misalnya penggunaan bahasa baku, isi surat harus efektif dan jelas, dan dibuat dengan cermat sesuai keperluannya.
-
-Setelah sobat pintar bisa memahami penjelasan di atas maka setelah ini akan kita uraikan bagaimana fungsi, ciri2, dan jenis-jenisnya.</textarea></div>
+													<div class="summernote" data-plugin-summernote data-plugin-options='{ "height": 180, "codemirror": { "theme": "ambiance" } }'>Surat Resmi disebut juga dengan surat dinas, yaitu media komunikasi dalam bentuk tulisan yang digunakan dalam situasi formal/ resmi dan dibuat sesuai dengan aturan-aturan tertentu yang sudah ada. Digunakan oleh perusahaan, perorangan, organisasi, maupun instansi baik itu perusahaan milik pemerintah maupun swasta. Penggunaannya tidak digunakan semata-mata untuk kepentingan pribadi (individu), tetapi untuk kepentingan dari sebuah organisasi maupun instansi. Lalu kenapa perorangan bisa menggunakannya? Itu disebabkan karena dibuat tidak secara asal-asalan serta mengikuti aturan-aturan tertentu. Contohnya adalah undangan pernikahan. Surat resmi dibuat dengan kaidah dan aturan yang telah ditentukan, misalnya penggunaan bahasa baku, isi surat harus efektif dan jelas, dan dibuat dengan cermat sesuai keperluannya. Setelah sobat pintar bisa memahami penjelasan di atas maka setelah ini akan kita uraikan bagaimana fungsi, ciri2, dan jenis-jenisnya.</div>
 												</div>
 											</div>
 						
@@ -482,73 +476,6 @@ Setelah sobat pintar bisa memahami penjelasan di atas maka setelah ini akan kita
 				</section>
 			</div>
 
-			<aside id="sidebar-right" class="sidebar-right">
-				<div class="nano">
-					<div class="nano-content">
-						<a href="#" class="mobile-close visible-xs">
-							Collapse <i class="fa fa-chevron-right"></i>
-						</a>
-			
-						<div class="sidebar-right-wrapper">
-			
-							<div class="sidebar-widget widget-calendar">
-								<h6>Upcoming Tasks</h6>
-								<div data-plugin-datepicker data-plugin-skin="dark" ></div>
-			
-								<ul>
-									<li>
-										<time datetime="2014-04-19T00:00+00:00">04/19/2014</time>
-										<span>Company Meeting</span>
-									</li>
-								</ul>
-							</div>
-			
-							<div class="sidebar-widget widget-friends">
-								<h6>Friends</h6>
-								<ul>
-									<li class="status-online">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-online">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-offline">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-offline">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-								</ul>
-							</div>
-			
-						</div>
-					</div>
-				</div>
-			</aside>
 		</section>
 
 		<div id="dialog" class="modal-block mfp-hide">
@@ -584,9 +511,29 @@ Setelah sobat pintar bisa memahami penjelasan di atas maka setelah ini akan kita
 		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
 		
 		<!-- Specific Page Vendor -->
+		<script src="assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+		<script src="assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js"></script>
 		<script src="assets/vendor/select2/select2.js"></script>
-		<script src="assets/vendor/jquery-datatables/media/js/jquery.dataTables.js"></script>
-		<script src="assets/vendor/jquery-datatables-bs3/assets/js/datatables.js"></script>
+		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+		<script src="assets/vendor/jquery-maskedinput/jquery.maskedinput.js"></script>
+		<script src="assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+		<script src="assets/vendor/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+		<script src="assets/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+		<script src="assets/vendor/fuelux/js/spinner.js"></script>
+		<script src="assets/vendor/dropzone/dropzone.js"></script>
+		<script src="assets/vendor/bootstrap-markdown/js/markdown.js"></script>
+		<script src="assets/vendor/bootstrap-markdown/js/to-markdown.js"></script>
+		<script src="assets/vendor/bootstrap-markdown/js/bootstrap-markdown.js"></script>
+		<script src="assets/vendor/codemirror/lib/codemirror.js"></script>
+		<script src="assets/vendor/codemirror/addon/selection/active-line.js"></script>
+		<script src="assets/vendor/codemirror/addon/edit/matchbrackets.js"></script>
+		<script src="assets/vendor/codemirror/mode/javascript/javascript.js"></script>
+		<script src="assets/vendor/codemirror/mode/xml/xml.js"></script>
+		<script src="assets/vendor/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+		<script src="assets/vendor/codemirror/mode/css/css.js"></script>
+		<script src="assets/vendor/summernote/summernote.js"></script>
+		<script src="assets/vendor/bootstrap-maxlength/bootstrap-maxlength.js"></script>
+		<script src="assets/vendor/ios7-switch/ios7-switch.js"></script>
 		
 		<!-- Theme Base, Components and Settings -->
 		<script src="assets/javascripts/theme.js"></script>
@@ -599,6 +546,7 @@ Setelah sobat pintar bisa memahami penjelasan di atas maka setelah ini akan kita
 
 
 		<!-- Examples -->
-		<script src="assets/javascripts/tables/examples.datatables.editable.js"></script>
+		<script src="assets/javascripts/forms/examples.advanced.form.js" /></script>
+
 	</body>
 </html>
