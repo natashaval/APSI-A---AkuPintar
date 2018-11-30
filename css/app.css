@@ -2192,7 +2192,7 @@ tbody.collapse.show {
   .dropdown-item:hover, .dropdown-item:focus {
     color: #16181b;
     text-decoration: none;
-    background-color: #f8f9fa; }
+    background-color: #f4fc53; }
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
@@ -3931,6 +3931,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
+  height: 50%;
   overflow: hidden; }
 
 .carousel-item {
@@ -6264,7 +6265,7 @@ header {
     border-radius: 50%;
     background: rgba(100, 100, 100, 0.9); }
   header.header-cat {
-    background-image: url("../img/banner-bg-1.jpg");
+    background-image: url("../img/slide24.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -6876,3 +6877,123 @@ footer {
         padding: 50px 0; }
         .contact .contact-detail .col-md-4 {
           margin-top: 50px; } }
+
+/*portofolio*/          
+
+#portfolio {
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+#portfolio .img-fluid {
+    margin-bottom: 30px;
+}
+
+#portfolio h2 {
+    color: #00A86B;
+    text-align: center;
+    font-size: 36px;
+    padding: 40px 0;
+}
+
+#portfolio .box-1,
+#portfolio .box-2 {
+    position: relative;
+}
+
+#portfolio .img-fluid {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#portfolio .box-1:hover .overlay,
+#portfolio .box-2:hover .overlay {
+    opacity: 1;
+}
+
+#portfolio .overlay .text span {
+    display: block;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+}
+
+/*#portfolio .box-1 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 91%;
+    width: 94.8%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,168,107, 0.80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+#portfolio .box-2 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 91%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,168,107, 0.80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolio .text {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+}
+
+#portfolio h4 {
+    font-size: 15px;
+    color: #8d8d8d;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+#portfolio .box-1 .overlay img {
+    width: 12%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#portfolio .box-2 .overlay img {
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#portfolio .box-1 .overlay .count,
+#portfolio .box-2 .overlay .count {
+    top: 2px;
+    right: 17px;
+    color: #ffffff;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+
