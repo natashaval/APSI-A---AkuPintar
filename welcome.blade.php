@@ -8,10 +8,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 
         <meta name="description" content="We craft awesome Bootstrap themes for free and share selected resources for web designer &amp; developer. Download Free HTML themes for Bootstrap" /> 
-        <link href="img/AP.png"  rel="apple-touch-icon" sizes="96x96">
-        <link href="img/AP.png" rel="icon" sizes="96x96" type="image/png">
-        <link href="img/AP.png" rel="icon" sizes="32x32" type="image/png">
-        <meta content="img/AP.png" name="msapplication-TileImage">
+        <link href="{{ asset ('templateku/img/AP.png')}}"  rel="apple-touch-icon" sizes="96x96">
+        <link href="{{ asset ('templateku/img/AP.png')}}" rel="icon" sizes="96x96" type="image/png">
+        <link href="{{ asset ('templateku/img/AP.png')}}" rel="icon" sizes="32x32" type="image/png">
+        <meta content="{{ asset ('templateku/img/AP.png')}}" name="msapplication-TileImage">
         
         <meta property="og:url" content="https://www.boostraptheme.com/demo/index.html" />
         <meta property="og:title" content="Startup - Business Free Bootstrap Template" />
@@ -22,11 +22,11 @@
         <meta name="twitter:creator" content="BoostrapTheme" />
 
         <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="{{ asset ('templateku/css/owl.carousel.min.css')}}">
+        <link rel="stylesheet" href="{{ asset ('templateku/css/animate.min.css')}}">
+        <link rel="stylesheet" href="{{ asset ('templateku/css/app.css')}}">
 
-        <script src="js/jquery.min.js"></script>
+        <script src="{{ asset ('templateku/js/jquery.min.js')}}"></script>
         <script> $(window).on('load', function(){ $(".loader").fadeOut(2000); }); </script>
     </head>
 
@@ -36,7 +36,7 @@
             =================-->
             <nav class="navbar navbar-expand-sm fixed-top" id="mainNav" style="background-color: black">
               <div class="container-fluid">
-                <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/AP.png" style="max-height: 51px;" alt="" class="img-fluid"></a>
+                <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="{{ asset ('templateku/img/AP.png')}}" style="max-height: 51px;" alt="" class="img-fluid"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   Menu
                   <i class="fa fa-bars"></i>
@@ -80,7 +80,7 @@
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <div class="img-caption-hide"></div>
-                          <img class="d-block w-100 img-fluid" src="img/slide13.jpg" alt="First slide">
+                          <img class="d-block w-100 img-fluid" src="{{ asset ('templateku/img/slide13.jpg')}}" alt="First slide">
                           <div class="carousel-caption d-none d-md-block">
                             <h3>Selamat datang di <span>AkuPintar</span></h3>
                             <div class="btn btn-general btn-white">Kampus</div>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="carousel-item">
                           <div class="img-caption-hide"></div>
-                          <img class="d-block w-100" src="img/slide15.jpg" alt="Second slide">
+                          <img class="d-block w-100" src="{{ asset ('templateku/img/slide15.jpg')}}" alt="Second slide">
                           <div class="carousel-caption d-none d-md-block">
                             <h3><span>Aplikasi Terbaik </span>untuk semua siswa SMA</h3>
                             <div class="btn btn-general btn-white">Materi</div>
@@ -111,21 +111,21 @@
                 <div class="row">
                   <div class="col-md-4  wow fadeInUp" data-wow-delay="0.3s">
                     <div class="about-cont">
-                      <img src="img/about/belajar_pintar.png" alt="" class="img-fluid">
+                      <img src="{{ asset ('templateku/img/about/belajar_pintar.png')}}" alt="" class="img-fluid">
                       <p>Kamu bisa belajar sepuasnya mengenai materi pelajaran dan juga bisa melatih kemampuanmu agar bisa jadi juara. Semua konten telah dirancang sesuai kurikulum yang berlaku dan kamu juga bisa saling bertanya jawab seputar materi maupun latihan dengan sesama pengguna Aku Pintar. GRATIS!!! Ayo tunggu apalagi, belajar pintar bersama Aku Pintar.</p>
                       <a href="#">Selanjutnya <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                   </div>
                   <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="about-cont second" >
-                      <img src="img/about/minat_pintar.png" alt="" style="max-width: 78%; height: auto;">
+                      <img src="{{ asset ('templateku/img/about/minat_pintar.png')}}" alt="" style="max-width: 78%; height: auto;">
                       <p>Sobat pintar, taukah kamu lebih dari 87% pelajar Indonesia salah jurusan? Nah jangan galau jurusan lagi ya, karena sekarang sudah ada Aku Pintar. Kami akan membantumu untuk mengenali potensi minat tentang persiapan pemilihan jurusan dan pekerjaan di masa depan.</p>
                       <a href="#">Selanjutnya <i class="fa fa-long-arrow-right"></i></a>
                     </div>                    
                   </div>
                   <div class="col-md-4 wow fadeInUp" data-wow-delay="0.9s">
                     <div class="about-cont">
-                      <img src="img/about/kampus1.png" alt="" class="img-fluid">
+                      <img src="{{ asset ('templateku/img/about/kampus1.png')}}" alt="" class="img-fluid">
                       <p>Sobat pintar masih bingung mau melanjutkan kuliah di mana dan jurusan apa? Sekarang kamu tidak akan bingung lagi, aplikasi Aku Pintar akan membantu kamu untuk mencari kampus impianmu disini, hebatnya lagi Aku Pintar akan memberikan rekomendasi jurusan terbaik sesuai minatmu sehingga akan mempermudah kamu menentukan pilihan yang tepat. Temukan kampus dan jurusan terbaikmu disini sekarang juga!</p>
                       <a href="#">Selanjutnya <i class="fa fa-long-arrow-right"></i></a>
                     </div>
@@ -149,48 +149,48 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6 m-auto service-img">
-                    <img src="img/service-bg.jpg" alt="" class="img-fluid">
+                    <img src="{{ asset ('templateku/img/service-bg.jpg')}}" alt="" class="img-fluid">
                   </div>
                   <div class="col-md-6">
                     <div class="row"> 
                       <div class="col-md-6 col-sm-6 text-center px-4">
                         <div class="service-desc-cont">
-                          <img src="img/icons/icon3.png" class="img-fluid" alt="">
+                          <img src="{{ asset ('templateku/img/icons/icon3.png')}}" class="img-fluid" alt="">
                           <h5>Kampus Pintar</h5>
                           <p>Bersama Kampus Pintar kamu dengan mudah mencari kampus terbaikmu</p>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 text-center px-4">
                         <div class="service-desc-cont">
-                          <img src="img/icons/icon9.png" class="img-fluid" alt="">
+                          <img src="{{ asset ('templateku/img/icons/icon9.png')}}" class="img-fluid" alt="">
                           <h5>Bantuan Psikolog</h5>
                           <p>Dalam memilih kampus dan jurusan kamu dapat melibatkan saran dan kritik dari psikolog ini, Sobat</p>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 text-center px-4">
                         <div class="service-desc-cont">
-                          <img src="img/icons/icon6.png" class="img-fluid" alt="">
+                          <img src="{{ asset ('templateku/img/icons/icon6.png')}}" class="img-fluid" alt="">
                           <h5>Belajar Pintar</h5>
                           <p>Pelajari materi lengkap melalui pembelajaran materi serta latihan soal.</p>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 text-center px-4">
                         <div class="service-desc-cont">
-                          <img src="img/icons/icon5.png" class="img-fluid" alt="">
+                          <img src="{{ asset ('templateku/img/icons/icon5.png')}}" class="img-fluid" alt="">
                           <h5>Tes Kepribadian dan Penjurusan</h5>
                           <p>Cari potensi dirimu dan rancang masa depanmu muali dari sekarang</p>
                         </div>
                       </div> 
                       <div class="col-md-6 col-sm-6 text-center px-4">
                         <div class="service-desc-cont">
-                          <img src="img/icons/icon7.png" class="img-fluid" alt="">
+                          <img src="{{ asset ('templateku/img/icons/icon7.png')}}" class="img-fluid" alt="">
                           <h5>Kabar Kampus</h5>
                           <p>Ikuti segala informasi dari kampus yang kamu impikan sekarang juga</p>
                         </div>
                       </div>
                       <div class="col-md-6 col-sm-6 text-center px-4">
                         <div class="service-desc-cont">
-                          <img src="img/icons/icon8.png" class="img-fluid" alt="">
+                          <img src="{{ asset ('templateku/img/icons/icon8.png')}}" class="img-fluid" alt="">
                           <h5>Branding Event</h5>
                           <p>Sukses semakin mudah dengan Branding Event bersama AkuPintar</p>
                         </div>
@@ -218,7 +218,7 @@
                   <div class="col-md-1"></div>
                   <div class="col-md-5 m-auto">
                     <div class="how-work-img wow fadeInUp" data-wow-delay="0.3s">
-                      <img src="{{ asset('templateku/img/how-work.png" alt="" class="img-fluid">
+                      <img src="{{ asset('templateku/img/how-work.png')}}" alt="" class="img-fluid">
                     </div>
                   </div>
                   
@@ -292,7 +292,7 @@
                 <div class="row">
                   <div class="col-md-4">
                     <div class="blog-cont wow fadeInUp" data-wow-delay="0.3s">
-                      <img src="{{ asset('templateku/img/blog/gesits234.jpg" alt="" class="img-fluid">
+                      <img src="{{ asset('templateku/img/blog/gesits234.jpg')}}" alt="" class="img-fluid">
                       <h5>Inovasi Berevolusi GESITS ITS</h5>
                       <p>GESITS tercetus dari sebuah mimpi anak bangsa Indonesia yang ingin mewujudkan Indonesia mandiri dalam sektor transpotrasi, teknologi dan industri. Dimulai dengan kerjasama Garansindo dan Institut Teknologi Sepuluh November (ITS) di 2015 dengan semangat dan tekad "Merah Putih" yang besar.</p>
                       <a href="#">Selengkapnya <i class="fa fa-long-arrow-right"></i></a>
@@ -300,7 +300,7 @@
                   </div>
                   <div class="col-md-4">
                     <div class="blog-cont wow fadeInUp" data-wow-delay="0.6s">
-                      <img src="{{ asset('templateku/img/blog/blog6.png" alt="" class="img-fluid">
+                      <img src="{{ asset('templateku/img/blog/blog6.png')}}" alt="" class="img-fluid">
                       <h5>Keren! Mobil Karya Mahasiswa UGM Sabet Penghargaan Internasional</h5>
                       <p>Mobil balap formula Bimasakti karya mahasiswa Universitas Gadjah Mada merebut beberapa penghargaan dalam ajang kompetisi mobil formula karya mahasiswa "Student Formula SAE Competition of Japan" di Jepang, 6-10 September 2016.</p>
                       <a href="#">Selengkapnya <i class="fa fa-long-arrow-right"></i></a>
@@ -308,7 +308,7 @@
                   </div>
                   <div class="col-md-4">
                     <div class="blog-cont wow fadeInUp" data-wow-delay="0.9s">
-                      <img src="{{ asset('templateku/img/blog/blog7.jpeg" alt="" class="img-fluid">
+                      <img src="{{ asset('templateku/img/blog/blog7.jpeg')}}" alt="" class="img-fluid">
                       <h5>UI Supermileage Vehicle Team (SMV) mengukir prestasi di Shell Eco-Marathon (SEM) Asia 2016</h5>
                       <p>UI (Universitas Indonesia) Supermileage Vehicle Team (SMV) mengukir prestasi dalam ajang internasional Shell Eco-Marathon (SEM) Asia 2016 pada 25 Februari—1 Maret 2016.</p>
                       <a href="#">Selanjutnya <i class="fa fa-long-arrow-right"></i></a>
@@ -326,25 +326,25 @@
                     <div class="col-md-12">
                         <div id="clients-list" class="owl-carousel owl-theme">
                             <div class="client-item">
-                                <img src="img/clients/logo-1.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-1.jpg')}}" class="img-fluid" alt="client">
                             </div>
                             <div class="client-item">
-                                <img src="img/clients/logo-2.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-2.jpg')}}" class="img-fluid" alt="client">
                             </div>
                             <div class="client-item">
-                                <img src="img/clients/logo-3.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-3.jpg')}}" class="img-fluid" alt="client">
                             </div>
                             <div class="client-item">
-                                <img src="img/clients/logo-4.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-4.jpg')}}" class="img-fluid" alt="client">
                             </div>
                             <div class="client-item">
-                                <img src="img/clients/logo-5.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-5.jpg')}}" class="img-fluid" alt="client">
                             </div>
                             <div class="client-item">
-                                <img src="img/clients/logo-6.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-6.jpg')}}" class="img-fluid" alt="client">
                             </div>
                             <div class="client-item">
-                                <img src="img/clients/logo-7.jpg" class="img-fluid" alt="client">
+                                <img src="{{ asset ('templateku/img/clients/logo-7.jpg')}}" class="img-fluid" alt="client">
                             </div> 
                         </div>
                     </div>
@@ -359,7 +359,7 @@
                 <div class="row">
                   <div class="col-md-4">
                     <div class="company-desc">
-                      <img src="{{ asset ('template/img/logo.png" alt="" class="img-fluid">
+                      <img src="{{ asset ('template/img/logo.png')}}" alt="" class="img-fluid">
                       <p>Aku Pintar adalah perusahaan teknologi informasi yang bergerak dibidang pendidikan, nama perusahaan kami adalah PT. Aku Pintar Indonesia </p>
                       <address><i class="fa fa-map-marker"></i> Sukolilo Park Regency Blok D no. 12, Keputih, Sukolilo,Kota Surabaya, Jawa Timur, 60111
                     </address>
@@ -387,7 +387,7 @@
                   <div class="col-md-4">
                     <div class="latest-news">
                       <h3>Informasi</h3>
-                      <img src="{{ asset ('template/img/blog/blog-small-1.jpg" alt="" class="img-fluid">
+                      <img src="{{ asset ('template/img/blog/blog-small-1.jpg')}}" alt="" class="img-fluid">
                       <p>Kebijakan Privasi <br>
                          Syarat & Ketentuan <br>
                          Karir</p>
@@ -397,12 +397,12 @@
               </div>
             </footer>
  
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/wow.min.js"></script> 
-        <script src="js/app.js"></script> 
+        <script src="{{ asset ('templateku/js/popper.min.js')}}"></script>
+        <script src="{{ asset ('templateku/js/bootstrap.min.js')}}"></script>
+        <script src="{{ asset ('templateku/js/jquery.easing.min.js')}}"></script>
+        <script src="{{ asset ('templateku/js/owl.carousel.min.js')}}"></script>
+        <script src="{{ asset ('templateku/js/wow.min.js')}}"></script> 
+        <script src="{{ asset ('templateku/js/app.js')}}"></script> 
         <!--Start of Tawk.to Script-->
             <script type="text/javascript">
             var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
