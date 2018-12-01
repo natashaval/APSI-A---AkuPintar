@@ -5,7 +5,7 @@
 		<!-- Basic -->
 		<meta charset="UTF-8">
 
-		<title>Event Recover Password | Okler Themes | Porto-Admin</title>
+		<title>Administrator | Okler Themes | Porto-Admin</title>
 		<meta name="keywords" content="HTML5 Admin Template" />
 		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
 		<meta name="author" content="okler.net">
@@ -21,6 +21,10 @@
 		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
 		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
 		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/select2/select2.css" />
+		<link rel="stylesheet" href="assets/vendor/jquery-datatables-bs3/assets/css/datatables.css" />
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
@@ -233,7 +237,7 @@
 							</figure>
 							<div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
 								<span class="name">John Doe</span>
-								<span class="role">Event Holder</span>
+								<span class="role">Administrator</span>
 							</div>
 			
 							<i class="fa custom-caret"></i>
@@ -282,112 +286,55 @@
 											<span>Dashboard</span>
 										</a>
 									</li>
-									<li class="nav-parent nav-expanded nav-active">
+									<li class="nav-parent">
 										<a>
 											<i class="fa fa-copy" aria-hidden="true"></i>
-											<span>Pages</span>
+											<span>Berita</span>
 										</a>
 										<ul class="nav nav-children">
 											<li>
-												<a href="pages-signup.html">
-													 Sign Up
-												</a>
+												<a href="admin-berita-unconfirmed.html">Unconfirmed</a>
 											</li>
 											<li>
-												<a href="pages-signin.html">
-													 Sign In
-												</a>
+												<a href="admin-berita-confirmed.html">Confirmed</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-parent">
+										<!-- <li class="nav-parent nav-expanded nav-active"> -->
+										<a>
+											<i class="fa fa-table" aria-hidden="true"></i>
+											<span>Event Holder</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="admin-eventHolder-unconfirmed.html">Unconfirmed</a>
+											</li>
+											<li>
+												<a href="admin-eventHolder-confirmed.html">Confirmed</a>
+											</li>
+										</ul>
+									</li>	
+									
+									<li class="nav-parent">
+										<!-- <li class="nav-parent nav-expanded nav-active"> -->
+										<a>
+											<i class="fa fa-table" aria-hidden="true"></i>
+											<span>Event Content</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="admin-eventContent-unconfirmed.html">Unconfirmed</a>
 											</li>
 											<li class="nav-active">
-												<a href="pages-eventHolder-resetPW.html">
-													 Recover Password
-												</a>
-											</li>
-											<li>
-												<a href="pages-lock-screen.html">
-													 Locked Screen
-												</a>
-											</li>
-											<li>
-												<a href="pages-eventHolder-profile.html">
-													 Event Holder Profile
-												</a>
-											</li>
-											<li>
-												<a href="pages-eventContent-timeout.html">
-													 Event Content
-												</a>
-											</li>
-											<li>
-												<a href="pages-invoice.html">
-													 Invoice
-												</a>
-											</li>
-											<li>
-												<a href="pages-log-viewer.html">
-													 Log Viewer
-												</a>
+												<a href="admin-eventContent-confirmed.html">Confirmed</a>
 											</li>
 										</ul>
 									</li>
 								</ul>
 							</nav>
 				
-							<hr class="separator" />
-				
-							<div class="sidebar-widget widget-tasks">
-								<div class="widget-header">
-									<h6>Projects</h6>
-									<div class="widget-toggle">+</div>
-								</div>
-								<div class="widget-content">
-									<ul class="list-unstyled m-none">
-										<li><a href="#">Porto HTML5 Template</a></li>
-										<li><a href="#">Tucson Template</a></li>
-										<li><a href="#">Porto Admin</a></li>
-									</ul>
-								</div>
-							</div>
-				
-							<hr class="separator" />
-				
-							<div class="sidebar-widget widget-stats">
-								<div class="widget-header">
-									<h6>Company Stats</h6>
-									<div class="widget-toggle">+</div>
-								</div>
-								<div class="widget-content">
-									<ul>
-										<li>
-											<span class="stats-title">Stat 1</span>
-											<span class="stats-complete">85%</span>
-											<div class="progress">
-												<div class="progress-bar progress-bar-primary progress-without-number" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-													<span class="sr-only">85% Complete</span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<span class="stats-title">Stat 2</span>
-											<span class="stats-complete">70%</span>
-											<div class="progress">
-												<div class="progress-bar progress-bar-primary progress-without-number" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-													<span class="sr-only">70% Complete</span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<span class="stats-title">Stat 3</span>
-											<span class="stats-complete">2%</span>
-											<div class="progress">
-												<div class="progress-bar progress-bar-primary progress-without-number" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
-													<span class="sr-only">2% Complete</span>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
 						</div>
 				
 					</div>
@@ -397,7 +344,7 @@
 
 				<section role="main" class="content-body">
 					<header class="page-header">
-						<h2>Recovery Password</h2>
+						<h2>Event Content Telah Dikonfirmasi</h2>
 					
 						<div class="right-wrapper pull-right">
 							<ol class="breadcrumbs">
@@ -406,130 +353,101 @@
 										<i class="fa fa-home"></i>
 									</a>
 								</li>
-								<li><span>Pages</span></li>
-								<li><span>Recovery Password</span></li>
+								<li><span>Event Content</span></li>
+								<li><span>Confirmed</span></li>
 							</ol>
 					
-							<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fa fa-chevron-left"></i></a>
+							<a class="sidebar-right-toggle"><i class="fa fa-chevron-left"></i></a>
 						</div>
 					</header>
 
 					<!-- start: page -->
-
-					<div class="row">
-						<div class="col-lg-12">
-								<section class="panel">
-									<header class="panel-heading">
-										<div class="panel-actions">
-											<a href="#" class="fa fa-caret-down"></a>
-											<a href="#" class="fa fa-times"></a>
-										</div>
 						
-										<h2 class="panel-title">Recover Password</h2>
-									</header>
-									<div class="panel-body">
-										<form class="form-horizontal form-bordered" method="get">
-										<hr class="dotted tall">
-											<h4 class="mb-xlg">Change Password</h4>
-											<fieldset class="mb-xl">
-												<div class="form-group">
-													<label class="col-md-3 control-label" for="profileNewPassword">New Password</label>
-													<div class="col-md-8">
-														<input type="text" class="form-control" id="profileNewPassword">
-													</div>
-												</div>
-												<div class="form-group">
-													<label class="col-md-3 control-label" for="profileNewPasswordRepeat">Repeat New Password</label>
-													<div class="col-md-8">
-														<input type="text" class="form-control" id="profileNewPasswordRepeat">
-													</div>
-												</div>
-											</fieldset>
-											<div class="panel-footer">
-												<div class="row">
-													<div class="col-md-9 col-md-offset-3">
-														<button type="submit" class="btn btn-primary">Submit</button>
-														<button type="reset" class="btn btn-default">Reset</button>
-													</div>
-												</div>
-											</div>
-										</form>
-									</div>
-								</section>
-						
+						<section class="panel">
+							<header class="panel-heading">						
+								<h2 class="panel-title">Event Content Telah Dikonfirmasi</h2>
+							</header>
+							<div class="panel-body">
+								<table class="table table-bordered table-striped mb-none pull-right" id="datatable-tabletools" data-swf-path="assets/vendor/jquery-datatables/extras/TableTools/swf/copy_csv_xls_pdf.swf">
+									<thead>
+										<tr>
+											<th>ID Event Holder</th>
+											<th>Nama Event</th>
+											<th>Tanggal</th>
+											<th>Waktu</th>
+											<th>Tempat</th>
+											<th>Biaya</th>
+											<th>Link Pendaftaran</th>
+											<th>Deskripsi</th>
+											<th>Kategori</th>
+											<th>Contact Person</th>
+											<td>Tanggal Konfirmasi</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="gradeX">
+											<td>10001</td>
+											<td>Schematics 2017</td>
+											<td class="center hidden-phone">31/12/2017</td>
+											<td class="center hidden-phone">10:00 - Selesai</td>
+											<td>Informatika ITS</td>
+											<td>0</td>
+											<td>https://schematics.its.ac.id/daftar</td>
+											<td>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</td>
+											<td>Lomba/Try Out</td>
+											<td>Email: aaaa@mail.com
+											No HP: 08882812182818
+											line: @oaoaoaoa
+											Instagram: @schematics.its
+											Website: https://schematics.its.ac.id
+											</td>
+											<td class="center hidden-phone">25/11/2017</td>
+										</tr>
+										<tr class="gradeX">
+											<td>10011</td>
+											<td>Schematics 2018</td>
+											<td class="center hidden-phone">31/12/2018</td>
+											<td class="center hidden-phone">10:00 - Selesai</td>
+											<td>Informatika ITS</td>
+											<td>1000000</td>
+											<td>https://schematics.its.ac.id/daftar</td>
+											<td>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</td>
+											<td>Seminar</td>
+											<td>Email: aaaa@mail.com
+											No HP: 08882812182818
+											line: @oaoaoaoa
+											Instagram: @schematics.its
+											Website: https://schematics.its.ac.id
+											</td>
+											<td class="center hidden-phone">27/11/2018</td>
+										</tr>
+										<tr class="gradeX">
+											<td>10012</td>
+											<td>Schematics 2019</td>
+											<td class="center hidden-phone">31/12/2019</td>
+											<td class="center hidden-phone">10:00 - Selesai</td>
+											<td>Informatika ITS</td>
+											<td>250000</td>
+											<td>https://schematics.its.ac.id/daftar</td>
+											<td>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</td>
+											<td>Lomba/Try Out</td>
+											<td>Email: aaaa@mail.com
+											No HP: 08882812182818
+											line: @oaoaoaoa
+											Instagram: @schematics.its
+											Website: https://schematics.its.ac.id
+											</td>
+											<td class="center hidden-phone">30/11/2019</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
-
-					</div>
+						</section>
+						
+					<!-- end: page -->
 				</section>
 			</div>
 
-			<aside id="sidebar-right" class="sidebar-right">
-				<div class="nano">
-					<div class="nano-content">
-						<a href="#" class="mobile-close visible-xs">
-							Collapse <i class="fa fa-chevron-right"></i>
-						</a>
-			
-						<div class="sidebar-right-wrapper">
-			
-							<div class="sidebar-widget widget-calendar">
-								<h6>Upcoming Tasks</h6>
-								<div data-plugin-datepicker data-plugin-skin="dark" ></div>
-			
-								<ul>
-									<li>
-										<time datetime="2014-04-19T00:00+00:00">04/19/2014</time>
-										<span>Company Meeting</span>
-									</li>
-								</ul>
-							</div>
-			
-							<div class="sidebar-widget widget-friends">
-								<h6>Friends</h6>
-								<ul>
-									<li class="status-online">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-online">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-offline">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-									<li class="status-offline">
-										<figure class="profile-picture">
-											<img src="assets/images/!sample-user.jpg" alt="Joseph Doe" class="img-circle">
-										</figure>
-										<div class="profile-info">
-											<span class="name">Joseph Doe Junior</span>
-											<span class="title">Hey, how are you?</span>
-										</div>
-									</li>
-								</ul>
-							</div>
-			
-						</div>
-					</div>
-				</div>
-			</aside>
 		</section>
 
 		<!-- Vendor -->
@@ -542,7 +460,10 @@
 		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
 		
 		<!-- Specific Page Vendor -->
-		<script src="assets/vendor/jquery-autosize/jquery.autosize.js"></script>
+		<script src="assets/vendor/select2/select2.js"></script>
+		<script src="assets/vendor/jquery-datatables/media/js/jquery.dataTables.js"></script>
+		<script src="assets/vendor/jquery-datatables/extras/TableTools/js/dataTables.tableTools.min.js"></script>
+		<script src="assets/vendor/jquery-datatables-bs3/assets/js/datatables.js"></script>
 		
 		<!-- Theme Base, Components and Settings -->
 		<script src="assets/javascripts/theme.js"></script>
@@ -553,5 +474,10 @@
 		<!-- Theme Initialization Files -->
 		<script src="assets/javascripts/theme.init.js"></script>
 
+
+		<!-- Examples -->
+		<script src="assets/javascripts/tables/examples.datatables.default.js"></script>
+		<script src="assets/javascripts/tables/examples.datatables.row.with.details.js"></script>
+		<script src="assets/javascripts/tables/examples.datatables.tabletools.js"></script>
 	</body>
 </html>
