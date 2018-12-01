@@ -6264,8 +6264,13 @@ header {
     font-size: 35px;
     border-radius: 50%;
     background: rgba(100, 100, 100, 0.9); }
-  header.header-cat {
+  header.header-cat1{
     background-image: url("../img/slide24.jpg");
+  }  
+  header.header-cat2{
+    background-image: url("../img/slide21.jpeg");
+  }
+  header.header-cat {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -6890,7 +6895,7 @@ footer {
 }
 
 #portfolio h2 {
-    color: #00A86B;
+    color: #000000;
     text-align: center;
     font-size: 36px;
     padding: 40px 0;
@@ -6997,3 +7002,12 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 3px solid #00A86B ;
+    margin-top:-30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
