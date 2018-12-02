@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<title>AkuPintar</title>
+	<script src="https://use.typekit.net/lkh0ago.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="css/login.css">
+    <link href="img/AP.png"  rel="apple-touch-icon" sizes="96x96">
+    <link href="img/AP.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="img/AP.png" rel="icon" sizes="32x32" type="image/png">
+</head>
+
+<body>
+  <main ontouchstart class="with-hover">
+	<aside>
+		<div></div>
+
+	</aside>
+	<section>
+		<h1>
+			<a id="link-signup" class="active">Sign Up</a>
+			<a id="link-login">Log In</a>
+		</h1>
+		<form id="form-signup" class="active">
+			<div>
+				<fieldset>
+					<div>
+						<label for="name">Username</label>
+						<input id="name" type="text" placeholder="Marcia Polo"/>
+					</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						<label for="email">Email</label>
+						<input id="email" type="email" placeholder="marcia@polo.com"/>
+					</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						<label for="password">Password</label>
+						<input id="password" type="password" placeholder="••••••••"/>
+					</div>
+				</fieldset>
+			</div>
+
+			<ul>
+				<li>
+					<button class="fb">Connect with Facebook</button>
+				</li>
+				<li>
+					<button class="tw">Connect with Twitter</button>
+				</li>
+			</ul>
+			
+			<input type="submit" value="Sign Up"/>
+		</form>
+		<form id="form-login">
+			<div>
+				<fieldset>
+					<div>
+						<label for="email">Email</label>
+						<input id="email" type="email" placeholder="marcia@polo.com"/>
+					</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						<label for="password">Password</label>
+						<input id="password" type="password" placeholder="••••••••"/>
+					</div>
+				</fieldset>
+			</div>
+
+			<ul>
+				<li>
+					<button class="fb">Connect with Facebook</button>
+				</li>
+				<li>
+					<button class="tw">Connect with Twitter</button>
+				</li>
+			</ul>
+			
+			<input type="submit" value="Log In" href="sudahLogin.html"/>
+		</form>
+	</section>
+</main>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script  src="js/login.js"></script>
+</body>
+
+</html>
