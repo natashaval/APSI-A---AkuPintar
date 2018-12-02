@@ -6283,6 +6283,29 @@ header {
     background-image: url("../img/slide34.jpg");
   } 
 
+  header.header-cat6 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 63vh;
+    width: 100%;
+    color: #fff; }
+    header.header-cat.header-cat-2 {
+      background-image: url("../img/banner-bg-2.jpg"); }
+    header.header-cat h1 {
+      text-align: center;
+      margin-top: 20vh;
+      font-size: 50px; }
+    @media (max-width: 575px) {
+      header.header-cat h1.testi-head {
+        margin-top: 15vh;
+        font-size: 40px; } }
+  @media (max-width: 575px) {
+    header {
+      margin-top: 50px; } }
+
+
   header.header-cat {
     -webkit-background-size: cover;
     -moz-background-size: cover;
