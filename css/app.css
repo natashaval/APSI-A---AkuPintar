@@ -6270,6 +6270,19 @@ header {
   header.header-cat2{
     background-image: url("../img/slide21.jpeg");
   }
+
+  header.header-cat3{
+    background-image: url("../img/slide25.jpg");
+  }
+
+  header.header-cat4{
+    background-image: url("../img/slide32.jpg");
+  }  
+
+  header.header-cat5{
+    background-image: url("../img/slide34.jpg");
+  } 
+
   header.header-cat {
     -webkit-background-size: cover;
     -moz-background-size: cover;
